@@ -1,0 +1,38 @@
+.section-nav {
+  display: flex;
+  justify-content: center;
+  font-family: $sans-serif;
+  border-bottom: 1px solid $light-gray;
+}
+
+.section-nav ul {
+  display: flex;
+  padding: 0;
+}
+
+.section-nav li {
+  margin-left: 10px;
+}
+
+.section-nav li:last-of-type {
+  border-right: none;
+}
+
+.section-nav button {
+  background: none;
+	padding: 0px;
+	color: #000;
+	font-weight: normal;
+	border: none;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.section-nav button:hover {
+  background-color: $lightest-gray;
+}
+
+.section-nav a {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}

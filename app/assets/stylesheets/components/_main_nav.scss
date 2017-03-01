@@ -1,34 +1,48 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;;
+  padding: 10px;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  font-size: 0.6rem;
+  font-family: $sans-serif;
+  font-weight: bold;
+  transition: color 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px 0 0 5px;
 }
 
 .right-nav > ul > li {
-
+  margin: 2px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  font-size: .75rem;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  color: $light-gray;
 }
 
 .left-nav span {
-
+  margin: 5px;
 }
 
 
 .right-nav i {
+  margin: 5px;
+}
 
+.hidden {
+  display: none;
 }
